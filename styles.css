@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'gmarket_sansmedium';
+    src: url('fonts/gmarketsansmedium-webfont.woff2') format('woff2'),
+         url('fonts/gmarketsansmedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gmarket_sansbold';
+    src: url('fonts/gmarketsansbold-webfont.woff2') format('woff2'),
+         url('fonts/gmarketsansbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: inline-block;
+    width: 64px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-item a {
+    font-family: helvetica;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+  }
+
+  
+  .nav-item:hover a {
+    color: wheat;
+  }
+  
+  .logo img {
+    width: 64px;
+    vertical-align: middle;
+  }
+
+
+  #header {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('bg.jpg');
+    background-size: cover; 
+  }
+  .container {
+    background-color: #060809;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    margin-left: -15px;
+  }
+
+h1 {
+    font-family: 'gmarket_sansbold';
+    font-size: 74px;
+    color: white;
+    margin-top: 0;  
+}
+
+.nom {
+    position: relative;
+    width: 100px;
+    top: 18%;
+    left: 15%;
+    color: black;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+
+}
+
+.prenom {
+    position: relative;
+    width: 100px;
+    top: 20%;
+    left: 10%;
+    margin-bottom: 0;
+}
+
+.separator {
+    position: relative;
+    left: 52.5%;
+    bottom: 10%;
+    width: .5%;
+    height: 20%;
+    background-color: white;
+}
+
+.title {
+    position: relative;
+    width: 40%;
+    font-size: 30px;
+    left: 55%;
+    bottom: 25%;
+    font-family: helvetica;
+    color: white;
+}
+
+@media (max-width: 1340px) {
+  body {
+    font-size: 16px;
+  }
+  
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  .nom {
+    top: 15%;
+    left: 10%;
+  }
+  
+  .prenom {
+    top: 17%;
+    left: 5%;
+  }
+  
+  .separator {
+    left: 50%;
+    bottom: 8%;
+    height: 15%;
+  }
+  
+  .title {
+    width: 42%;
+    font-size: 24px;
+    left: 52.5%;
+    bottom: 20%;
+  }
+
+  #about {
+    height: 75vh;
+  }
+
+  #about p {
+    font-size: .9rem;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .separator {
+    top: 0%;
+    left: 50%;
+    height: 10%;
+  }
+
+  .title {
+    bottom: 10%;
+    font-size: 20px;
+  }
+
+  #about {
+    height: 75vh;
+  }
+
+  #about p {
+    font-size: .8rem;
+    margin-right: 5%;
+  }
+
+  #about img {
+    width: 150px;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  nav {
+    display: none
+  }
+
+  .separator {
+    top: 20%;
+    height: 20% ;
+    transform: rotate(90deg);
+  }
+
+  .title {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 15%;
+  }
+
+
+  .nom {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    width: 70%;
+  }
+
+  .prenom {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    width: 70%;
+  }
+  h1 {
+    width: 100%;
+  }
+
+  h2:not(.title) {
+    text-align: center;
+    font-size: 3rem !important;
+    -webkit-text-stroke-width: 1px !important;
+  }
+
+  #about {
+    height: 100vh;
+  }
+
+  .content {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important; 
+  }
+
+  #about p {
+    font-size: .75rem;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+  }
+
+  #about img {
+    width: 250px;
+    margin: 0;
+  }
+}
+
+h2:not(.title) {
+  color: white;
+  font-family: 'gmarket_sansbold';
+  font-size: 4rem;
+  margin: 0;
+  padding-top: 4%;
+  padding-left: 5%;
+  color: #0b0d0d;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+
+}
+
+p {
+  color: white;
+  font-family: 'gmarket_sansmedium';
+  font-size: 1.25rem;
+  width: 55%;
+  margin: 0;
+  margin-left: 5%;
+  padding-top: 40px;
+  padding-left: 40px;
+  color: white
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: -15px;
+}
+
+img {
+  position: relative;
+  float: right;
+  margin-right: 10%;
+  width: 250px;
+}
