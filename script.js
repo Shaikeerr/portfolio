@@ -14,7 +14,7 @@ function play_pause() {
             nav_element.src = "images/music_off.png";
             document.querySelector('.audio-player p').style.opacity = 0;
             musique.play();
-            musique.volume = 0.1;
+            musique.volume = 0.05;
         }
         else {
             element.src = "images/play.png";

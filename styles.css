@@ -30,9 +30,10 @@
     backdrop-filter: blur(10px);
     z-index: 2;
     width: 100%;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, .1);
     padding-left: 30px;
     padding-right: 10px;
+    padding-top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,6 +80,7 @@
   #header {
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('bg.jpg');
     background-size: cover; 
+    padding-top: 0;
   }
   .container {
     background-color: #060809;
@@ -86,6 +88,7 @@
     width: 100vw;
     margin: 0;
     padding: 0;
+    padding-top: 50px;
   }
 
 h1 {
@@ -166,6 +169,48 @@ h1 {
 
 }
 
+h2:not(.title) {
+  color: white;
+  font-family: 'gmarket_sansbold';
+  font-size: 4rem;
+  margin: 0;
+  padding-top: 4%;
+  padding-left: 5%;
+  color: #0b0d0d;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+
+}
+
+p {
+  color: white;
+  font-family: 'gmarket_sansmedium';
+  font-size: 1.25rem;
+  width: 55%;
+  margin: 0;
+  margin-left: 5%;
+  padding-top: 40px;
+  padding-left: 40px;
+  color: white
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: -15px;
+}
+
+.container img {
+  position: relative;
+  float: right;
+  margin-right: 10%;
+  width: 250px;
+}
+
 @media (max-width: 1340px) {
   body {
     font-size: 16px;
@@ -230,6 +275,12 @@ h1 {
 @media (max-width: 800px) {
   h1 {
     font-size: 36px;
+  }
+
+  h2:not(.title) {
+    font-size: 3rem;
+    -webkit-text-stroke-width: 2px;
+
   }
 
   .separator {
@@ -318,9 +369,10 @@ h1 {
   }
 
   h2:not(.title) {
+    font-size: 2rem;
+    -webkit-text-stroke-width: 1px;
+    padding: 0;
     text-align: center;
-    font-size: 3rem !important;
-    -webkit-text-stroke-width: 1px !important;
   }
 
   #about {
@@ -343,6 +395,7 @@ h1 {
   .container img {
     width: 250px;
     margin: 0;
+    margin-right: 0;
   }
 
     
@@ -368,46 +421,4 @@ h1 {
     text-align: center;
     font-size: 1rem;
   }
-}
-
-h2:not(.title) {
-  color: white;
-  font-family: 'gmarket_sansbold';
-  font-size: 4rem;
-  margin: 0;
-  padding-top: 4%;
-  padding-left: 5%;
-  color: #0b0d0d;
-  -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: white;
-
-}
-
-p {
-  color: white;
-  font-family: 'gmarket_sansmedium';
-  font-size: 1.25rem;
-  width: 55%;
-  margin: 0;
-  margin-left: 5%;
-  padding-top: 40px;
-  padding-left: 40px;
-  color: white
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  margin-left: -15px;
-}
-
-.container img {
-  position: relative;
-  float: right;
-  margin-right: 10%;
-  width: 250px;
 }
