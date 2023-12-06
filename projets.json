@@ -1,0 +1,23 @@
+{
+    "Projet1" : {
+        "titre" : "Dataviz",
+        "description": "Dans le cadre de la SAE 3.03 \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années. Pour cela, quoi de mieux que de montrer la progression des revenus redistribués aux joueurs à la suite de compétitions, car c'est le moyen le plus efficace d'évaluer la santé d'un jeu-vidéo en matière d'esport.",
+        "lien" : "http://dataviz.shaikeerr.tech",
+        "image" : "images/dataviz.png"
+    },
+
+    "Projet2" : {
+        "titre" : "Resaweb",
+        "description" : "Êtes-vous prêt à vivre une expérience unique dans l'univers légendaire de ce jeu vidéo emblématique ? Alors ne cherchez plus, car vous êtes au bon endroit. Notre site vous offre la possibilité de réserver des lieux inspirés de Zelda, où vous pourrez vous immerger totalement dans l'univers fantastique de cette franchise adorée par des millions de joueurs à travers le monde. Que vous soyez un fan inconditionnel de la série ou simplement curieux de découvrir cet univers magique, vous trouverez chez nous une sélection incroyable de lieux de résidence qui vous transporteront directement dans les terres d'Hyrule.",
+        "lien" : "https://resaweb.calmette.butmmi.o2switch.site",
+        "image" : "images/resaweb.png"
+    },
+
+    "Projet3" : {
+        "titre" : "Refonte Site Web P5R",
+        "description" : "Dans le cadre d'un sujet de refonte de site web, nous avions la possibilité de choisir un site à refaire. Ainsi, j'ai choisi le site de Persona 5 Royal, car c'est un site qui peut être imaginé de manière différente de ce qu'il est actuellement. Avec ses éléments très destructurés, il était possible de faire quelque chose de bien plus droit, cadré. Et c'est pour cette raison que j'ai choisi de le refaire, sous forme d'un terminal, a la Matrix, avec des éléments graphiques rappelant les plus grands piratages dans les films.",
+        "lien" : "https://www.figma.com/file/YIn76VwMy4TaRoxD0Q2LR6/Calmette-Noah?type=design&node-id=0%3A1&mode=design&t=Rnvbs3MEzEwvqdXm-1",
+        "image" : "images/refonte.png"
+    }
+        
+}

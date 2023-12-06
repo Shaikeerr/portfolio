@@ -59,6 +59,7 @@
   }
 
   .nav-item img {
+    cursor: pointer;
     display: inline-block;
     padding: 5px 15px;
     width: 32px !important;
@@ -421,4 +422,26 @@ p {
     text-align: center;
     font-size: 1rem;
   }
+}
+
+.project-box {
+  min-width: 25%;
+  min-height: 50vh;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 3px white;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.project-box:hover {
+  border: solid 3px wheat;
+  border-top: solid 20px wheat;
+  border-right: solid 20px wheat;
+}
+
+#projects .content {
+  margin-top: 40px;
+
 }
