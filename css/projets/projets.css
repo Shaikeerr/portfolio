@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container img {
+    width: 500px;
+    margin: 0;
+    margin-right: 0;
+    top: 50%;
+}
+
+.container .texte {
+    margin-left: 50px;
+}

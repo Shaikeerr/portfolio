@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  #header {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../bg.jpg');
+    background-size: cover; 
+    padding-top: 0;
+  }
+  .container {
+    background-color: #060809;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+  }
+
+h1 {
+    font-family: 'gmarket_sansbold';
+    font-size: 74px;
+    color: white;
+    margin-top: 0;  
+}
+
+.nom {
+    position: relative;
+    width: 100px;
+    top: 18%;
+    left: 15%;
+    color: black;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+
+}
+
+.prenom {
+    position: relative;
+    width: 100px;
+    top: 20%;
+    left: 10%;
+    margin-bottom: 0;
+}
+
+.separator {
+    position: relative;
+    left: 52.5%;
+    bottom: 10%;
+    width: .5%;
+    height: 20%;
+    background-color: white;
+}
+
+.title {
+    position: relative;
+    width: 40%;
+    font-size: 30px;
+    left: 55%;
+    bottom: 25%;
+    font-family: helvetica;
+    color: white;
+}
+
+.play_pause {
+    position: relative;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 10px;
+    width: 50px;
+    left: 10%;
+  
+}
+
+.play_pause img {
+  width: 50px !important;
+}
+
+.audio-player {
+  position: relative;
+  bottom: 20%;
+}
+
+.audio-player p {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 30%;
+  left: 16%;
+  font-family: helvetica;
+  font-style: italic;
+  color: white;
+  transition: all 1s ease;
+
+}
+
+h2:not(.title) {
+  color: white;
+  font-family: 'gmarket_sansbold';
+  font-size: 4rem;
+  margin: 0;
+  padding-top: 4%;
+  padding-left: 5%;
+  color: #0b0d0d;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+
+}
+
+p {
+  color: white;
+  font-family: 'gmarket_sansmedium';
+  font-size: 1.25rem;
+  width: 55%;
+  margin: 0;
+  margin-left: 5%;
+  padding-top: 40px;
+  padding-left: 40px;
+  color: white
+}
+
+.content {
+  display: flex;
+  height: 250px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: -15px;
+}
+
+.container img {
+  position: relative;
+  float: right;
+  margin-right: 10%;
+  width: 250px;
+}
+
+.project-box {
+  min-width: 400px;
+  min-height: 400px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 3px white;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.project-box:hover {
+  border-right: solid 20px;
+  border-top: solid 20px;
+
+}
+
+#projects .content {
+  margin-top: 40px;
+}

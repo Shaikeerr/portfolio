@@ -1,0 +1,70 @@
+body {
+    font-size: 16px;
+  }
+  
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  .nom {
+    top: 15%;
+    left: 10%;
+  }
+  
+  .prenom {
+    top: 17%;
+    left: 5%;
+  }
+  
+  .separator {
+    left: 50%;
+    bottom: 8%;
+    height: 15%;
+  }
+  
+  .title {
+    width: 42%;
+    font-size: 24px;
+    left: 52.5%;
+    bottom: 20%;
+  }
+
+  #about {
+    height: 75vh;
+  }
+
+ .container p {
+    font-size: .9rem;
+    margin-right: 5%;
+  }
+
+  .audio-player {
+    position: relative;
+    bottom: 12%;
+  }
+
+  .play_pause {
+    left: 5%;
+  }
+
+  .play_pause img {
+    width: 40px !important;
+  }
+
+  .audio-player p {
+    left: 11%;
+  }
+
+  .project-box {
+    min-width: 250px;
+    min-height: 250px;
+    margin: auto;
+    border-radius: 40px;
+  }
+  
+  .project-box:hover {
+    border-right: solid 20px;
+    border-top: solid 20px;
+  
+  }

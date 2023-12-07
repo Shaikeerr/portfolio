@@ -1,0 +1,112 @@
+nav {
+    display: none
+  }
+
+  .separator {
+    top: 20%;
+    height: 20% ;
+    transform: rotate(90deg);
+  }
+
+  .title {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 15%;
+  }
+
+
+  .nom {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    width: 70%;
+  }
+
+  .prenom {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    width: 70%;
+  }
+  h1 {
+    width: 100%;
+  }
+
+  h2:not(.title) {
+    font-size: 2rem;
+    -webkit-text-stroke-width: 1px;
+    padding: 0;
+    text-align: center;
+  }
+
+  #about {
+    height: 100vh;
+  }
+
+  .content {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important; 
+  }
+
+  .container p {
+    top: 50%;
+    font-size: .75rem;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+  }
+
+  .container img {
+    width: 250px;
+    margin: 0;
+    margin-right: 0;
+    top: 50%;
+  }
+
+    
+  .audio-player {
+    position: relative;
+    top: 20%;
+  }
+
+  .play_pause {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .play_pause img {
+    width: 50px !important;
+  }
+
+  .audio-player p {
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-wrap: break-word;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .project-box {
+    min-width: 250px;
+    min-height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 40px;
+  }
+  
+  .project-box:hover {
+    border-right: solid 20px;
+    border-top: solid 20px;
+  
+  }
+
+  #projects .content {
+    position: relative;
+    top: 20%;
+    margin-top: 100px;
+  }
