@@ -2,7 +2,7 @@
     
     "Projet1" : {
         "titre" : "Voyage en Terre Hylienne",
-        "description" : "Voyage en Terre Hylienne est un site de voyage fictif réalisé dans le cadre d'un projet universitaire de BUT MMI. Il nous était demandé de réaliser un site de réservation de produits ou de services. Le monde de Zelda étant un monde que j'apprécie tout particulièrement, avec sa palette de paysages à couper le souffle, il me semblait logique de réaliser ce projet en partant de ce monde comme base. Ainsi, j'ai réalisé un site de réservation de voyage sur le thème de Zelda, qui permet à l'utilisateur de filtrer en fonction du jeu de la série dont les destinations sont issues, et de réserver un voyage en fonction de ses envies, grâce à un envoie de mail automatique.",
+        "description" : "Voyage en Terre Hylienne est un site de voyage fictif réalisé dans le cadre d'un projet universitaire de BUT MMI. Il nous était demandé de réaliser un site de réservation de produits ou de services. Le monde de Zelda étant un monde que j'apprécie tout particulièrement, avec sa palette de paysages à couper le souffle, il me semblait logique de réaliser ce projet en partant de ce monde comme base. Ainsi, j'ai réalisé un site de réservation de voyage sur le thème de Zelda, qui permet à l'utilisateur de filtrer en fonction du jeu de la série dont les destinations sont issues, et de réserver un voyage en fonction de ses envies, grâce à un envoi de mail automatique.",
         "lien" : "https://resaweb.calmette.butmmi.o2switch.site",
         "image" : "images/resaweb.png",
         "couleur" : "#FFF",
