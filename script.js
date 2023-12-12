@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 projectElement.classList.add('project-box');
                 projectElement.id = key;
                 console.log(key);
-                projectElement.style.backgroundImage = "url('" + data[key].image + "')";
+                projectElement.style.backgroundImage = 'url("' + data[key].image + '")';
                 projectElement.style.borderColor = data[key].couleur  
                 
                 // Ajouter un gestionnaire d'événements clic
