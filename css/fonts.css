@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'gmarket_sansmedium';
-    src: url('fonts/gmarketsansmedium-webfont.woff2') format('woff2'),
-         url('fonts/gmarketsansmedium-webfont.woff') format('woff');
+    src: url('../fonts/gmarketsansmedium-webfont.woff2') format('woff2'),
+         url('../fonts/gmarketsansmedium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
