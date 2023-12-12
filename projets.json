@@ -1,11 +1,25 @@
 {
     
     "Projet1" : {
-        "titre" : "Resaweb",
-        "description" : "Êtes-vous prêt à vivre une expérience unique dans l'univers légendaire de ce jeu vidéo emblématique ? Alors ne cherchez plus, car vous êtes au bon endroit. Notre site vous offre la possibilité de réserver des lieux inspirés de Zelda, où vous pourrez vous immerger totalement dans l'univers fantastique de cette franchise adorée par des millions de joueurs à travers le monde. Que vous soyez un fan inconditionnel de la série ou simplement curieux de découvrir cet univers magique, vous trouverez chez nous une sélection incroyable de lieux de résidence qui vous transporteront directement dans les terres d'Hyrule.",
+        "titre" : "Voyage en Terre Hylienne",
+        "description" : "Voyage en Terre Hylienne est un site de voyage fictif réalisé dans le cadre d'un projet universitaire de BUT MMI. Il nous était demandé de réaliser un site de réservation de produits ou de services. Le monde de Zelda étant un monde que j'apprécie tout particulièrement, avec sa palette de paysages à couper le souffle, il me semblait logique de réaliser ce projet en partant de ce monde comme base. Ainsi, j'ai réalisé un site de réservation de voyage sur le thème de Zelda, qui permet à l'utilisateur de filtrer en fonction du jeu de la série dont les destinations sont issues, et de réserver un voyage en fonction de ses envies, grâce à un envoie de mail automatique.",
         "lien" : "https://resaweb.calmette.butmmi.o2switch.site",
         "image" : "images/resaweb.png",
-        "couleur" : "#FFF"
+        "couleur" : "#FFF",
+        "technos" : {
+            "HTML" : "logos/html.png",
+            "CSS" : "logos/css.png",
+            "PHP" : "logos/php.png",
+            "JS" : "logos/js.png",
+            "VSC" : "logos/vsc.png"
+        },
+        "links" : {
+            "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "CSS" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "PHP" : "https://www.php.net",
+            "JS" : "https://developer.mozilla.org/fr/docs/Web/JavaScript",
+            "VSC" : "https://code.visualstudio.com"
+        }
     },
 
     "Projet2" : {
@@ -13,7 +27,13 @@
         "description" : "Dans le cadre d'un sujet de refonte de site web, nous avions la possibilité de choisir un site à refaire. Ainsi, j'ai choisi le site de Persona 5 Royal, car c'est un site qui peut être imaginé de manière différente de ce qu'il est actuellement. Avec ses éléments très destructurés, il était possible de faire quelque chose de bien plus droit, cadré. Et c'est pour cette raison que j'ai choisi de le refaire, sous forme d'un terminal, a la Matrix, avec des éléments graphiques rappelant les plus grands piratages dans les films.",
         "lien" : "https://www.figma.com/file/YIn76VwMy4TaRoxD0Q2LR6/Calmette-Noah?type=design&node-id=0%3A1&mode=design&t=Rnvbs3MEzEwvqdXm-1",
         "image" : "images/refonte.png",
-        "couleur" : "#14ff00"
+        "couleur" : "#14ff00",
+        "technos" : {
+            "Figma" : "logos/figma.png"
+        },
+        "links" : {
+            "Figma":"https://www.figma.com"
+        }
     },
 
     "Projet3" : {
@@ -21,8 +41,26 @@
         "description": "Dans le cadre de la SAE 3.03 \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années. Pour cela, quoi de mieux que de montrer la progression des revenus redistribués aux joueurs à la suite de compétitions, car c'est le moyen le plus efficace d'évaluer la santé d'un jeu-vidéo en matière d'esport.",
         "lien" : "http://dataviz.shaikeerr.tech",
         "image" : "images/dataviz.png",
-        "couleur" : "#4c2061"
+        "couleur" : "#4c2061",
+        "technos" : {
+            "HTML" : "logos/html.png",
+            "CSS" : "logos/css.png",
+            "D3" : "logos/d3.png",
+            "JS" : "logos/js.png",
+            "VSC" : "logos/vsc.png",
+            "Figma":"logos/figma.png"
+        },
+        "links" : {
+            "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "CSS" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "D3" : "https://d3js.org",
+            "JS" : "https://developer.mozilla.org/fr/docs/Web/JavaScript",
+            "VSC" : "https://code.visualstudio.com",
+            "Figma":"https://www.figma.com"
+
+        }
     }
+
 
     
 
