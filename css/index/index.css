@@ -159,3 +159,17 @@ p {
 #projects .content {
   margin-top: 40px;
 }
+
+.img-text {
+  position: relative;
+  font-family: 'gmarket_sansmedium';
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  opacity: 1;
+  top: 425px;
+  transition: all 0.5s ease;
+}
+
+

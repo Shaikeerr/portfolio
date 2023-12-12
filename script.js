@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 projectElement.id = key;
                 console.log(key);
                 projectElement.style.backgroundImage = 'url("' + data[key].image + '")';
+                projectElement.innerHTML += "<p class='img-text'>" + data[key].titre + "</p><br>";
+
                 projectElement.style.borderColor = data[key].couleur  
                 
                 // Ajouter un gestionnaire d'événements clic

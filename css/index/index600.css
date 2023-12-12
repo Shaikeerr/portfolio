@@ -95,7 +95,7 @@ nav {
     min-width: 250px;
     min-height: 250px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-top: 50px;
     border-radius: 40px;
   }
   
@@ -109,4 +109,13 @@ nav {
     position: relative;
     top: 20%;
     margin-top: 100px;
+  }
+
+  #projects {
+    height: 150vh;
+  }
+
+  .img-text {
+    top: 265px !important;
+    width: 100% !important;
   }
