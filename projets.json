@@ -3,7 +3,11 @@
     "Projet1" : {
         "titre" : "Voyage en Terre Hylienne",
         "description" : "Voyage en Terre Hylienne est un site de voyage fictif réalisé dans le cadre d'un projet universitaire de BUT MMI. Il nous était demandé de réaliser un site de réservation de produits ou de services. Le monde de Zelda étant un monde que j'apprécie tout particulièrement, avec sa palette de paysages à couper le souffle, il me semblait logique de réaliser ce projet en partant de ce monde comme base. Ainsi, j'ai réalisé un site de réservation de voyage sur le thème de Zelda, qui permet à l'utilisateur de filtrer en fonction du jeu de la série dont les destinations sont issues, et de réserver un voyage en fonction de ses envies, grâce à un envoi de mail automatique.",
-        "lien" : "https://resaweb.calmette.butmmi.o2switch.site",
+        "liens" : {
+            "site" : "https://resaweb.calmette.butmmi.o2switch.site",
+            "github" : "https://github.com/Shaikeerr/ResaWeb"
+        },
+
         "image" : "images/resaweb.png",
         "couleur" : "#FFF",
         "technos" : {
@@ -19,13 +23,19 @@
             "PHP" : "https://www.php.net",
             "JS" : "https://developer.mozilla.org/fr/docs/Web/JavaScript",
             "VSC" : "https://code.visualstudio.com"
+        },
+        "showcase" : {
+            "image" : "images/reservations.png",
+            "legende" : "La Page Réservation pour un voyage dans le monde de Breath of the Wild "
         }
     },
 
     "Projet2" : {
         "titre" : "Refonte Site Web P5R",
         "description" : "Dans le cadre d'un sujet de refonte de site web, nous avions la possibilité de choisir un site à refaire. Ainsi, j'ai choisi le site de Persona 5 Royal, car c'est un site qui peut être imaginé de manière différente de ce qu'il est actuellement. Avec ses éléments très destructurés, il était possible de faire quelque chose de bien plus droit, cadré. Et c'est pour cette raison que j'ai choisi de le refaire, sous forme d'un terminal, a la Matrix, avec des éléments graphiques rappelant les plus grands piratages dans les films.",
-        "lien" : "https://www.figma.com/file/YIn76VwMy4TaRoxD0Q2LR6/Calmette-Noah?type=design&node-id=0%3A1&mode=design&t=Rnvbs3MEzEwvqdXm-1",
+        "liens" : {
+            "site" : "https://www.figma.com/file/YIn76VwMy4TaRoxD0Q2LR6/Calmette-Noah?type=design&node-id=0%3A1&mode=design&t=Rnvbs3MEzEwvqdXm-1"
+        },
         "image" : "images/refonte.png",
         "couleur" : "#14ff00",
         "technos" : {
@@ -33,13 +43,20 @@
         },
         "links" : {
             "Figma":"https://www.figma.com"
+        },
+        "showcase" : {
+            "image" : "images/moodboard.png",
+            "legende" : "Moodboard utilisé pour la refonte"
         }
     },
 
     "Projet3" : {
         "titre" : "Dataviz",
         "description": "Dans le cadre de la SAE 3.03 \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années. Pour cela, quoi de mieux que de montrer la progression des revenus redistribués aux joueurs à la suite de compétitions, car c'est le moyen le plus efficace d'évaluer la santé d'un jeu-vidéo en matière d'esport.",
-        "lien" : "http://dataviz.shaikeerr.tech",
+        "liens" : {
+            "site" : "http://dataviz.shaikeerr.tech",
+            "github" : "https://github.com/Shaikeerr/Dataviz"
+        },
         "image" : "images/dataviz.png",
         "couleur" : "#4c2061",
         "technos" : {
@@ -58,6 +75,10 @@
             "VSC" : "https://code.visualstudio.com",
             "Figma":"https://www.figma.com"
 
+        },
+        "showcase" : {
+            "image" : "images/graphique.png",
+            "legende" : "Graphique obtenu pour l'année 2023 avec focus sur Dota 2 premier au classement."
         }
     }
 
