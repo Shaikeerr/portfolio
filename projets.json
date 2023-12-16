@@ -31,18 +31,21 @@
     },
 
     "Projet2" : {
-        "titre" : "Refonte Site Web P5R",
+        "titre" : "Refonte Site P5R",
         "description" : "Dans le cadre d'un sujet de refonte de site web, nous avions la possibilité de choisir un site à refaire. Ainsi, j'ai choisi le site de Persona 5 Royal, car c'est un site qui peut être imaginé de manière différente de ce qu'il est actuellement. Avec ses éléments très destructurés, il était possible de faire quelque chose de bien plus droit, cadré. Et c'est pour cette raison que j'ai choisi de le refaire, sous forme d'un terminal, a la Matrix, avec des éléments graphiques rappelant les plus grands piratages dans les films.",
         "liens" : {
-            "site" : "https://www.figma.com/file/YIn76VwMy4TaRoxD0Q2LR6/Calmette-Noah?type=design&node-id=0%3A1&mode=design&t=Rnvbs3MEzEwvqdXm-1"
+            "site" : "https://shorturl.at/tuHIS"
         },
         "image" : "images/refonte.png",
         "couleur" : "#14ff00",
         "technos" : {
-            "Figma" : "logos/figma.png"
+            "Figma" : "logos/figma.png",
+            "Photoshop" : "logos/photoshop.png"
         },
         "links" : {
-            "Figma":"https://www.figma.com"
+            "Figma":"https://www.figma.com",
+            "Photoshop" : "https://www.adobe.com/fr/products/photoshop.html"
+            
         },
         "showcase" : {
             "image" : "images/moodboard.png",

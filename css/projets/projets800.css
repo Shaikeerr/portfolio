@@ -1,0 +1,32 @@
+.image_projet img:not(.logo_lien) {
+    width: 250px;
+    height: 250px;
+    left: 5%;
+    top: 45% !important;
+}
+
+
+.liens_projet a {
+    width: 250px;
+}
+
+.liens_projet {
+    top: 70%;
+    left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_text {
+    margin-top: 35vh;
+    margin-right: 50px;
+}
+
+.technos img {
+    width: 35px;;
+    height: 35px;
+}
+
+.container {
+    top: 0;
+}

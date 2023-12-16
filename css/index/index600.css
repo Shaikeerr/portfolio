@@ -94,7 +94,7 @@ nav {
   .project-box {
     min-width: 250px;
     min-height: 250px;
-    margin: auto;
+
     margin-top: 50px;
     border-radius: 40px;
   }
@@ -118,4 +118,40 @@ nav {
   .img-text {
     top: 265px !important;
     width: 100% !important;
+  }
+
+
+  .progress-container img {
+    width: 35px;
+    margin-right: 15px;
+    top: 0;
+  }
+
+  #skills .content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin: 0;
+  }
+
+  .progress-container {
+    display: flex;
+    flex : 1;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #skills .content {
+    height: 60%;
+  }
+
+  #skills h2 {
+    margin-bottom: 20%;
   }

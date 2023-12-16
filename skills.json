@@ -1,0 +1,31 @@
+{
+    "HTML": {
+        "image" : "logos/html.png",
+        "percentage" : "90"
+    },
+
+    "CSS": {
+        "image" : "logos/css.png",
+        "percentage" : "90"
+    },
+
+    "Javascript": {
+        "image" : "logos/js.png",
+        "percentage" : "80"
+    },
+
+    "PHP": {
+        "image" : "logos/php.png",
+        "percentage" : "60"
+    },
+
+    "Figma": {
+        "image" : "logos/figma.png",
+        "percentage" : "70"
+    },
+
+    "Photoshop" : {
+        "image" : "logos/photoshop.png",
+        "percentage" : "50"
+    }
+}

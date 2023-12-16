@@ -111,7 +111,7 @@ h2:not(.title) {
 
 p {
   color: white;
-  font-family: 'gmarket_sansmedium';
+  font-family: 'Roboto';
   font-size: 1.25rem;
   width: 55%;
   margin: 0;
@@ -172,4 +172,87 @@ p {
   transition: all 0.5s ease;
 }
 
+strong {
+  color: pink;
 
+}
+
+.progress-container {
+  display: flex;
+  flex: 0 0 calc(33.33% - 10px); /* 3 éléments par ligne, avec une marge de 10px entre eux */
+  flex-direction: row;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+progress {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 20px;
+  border: none;
+  margin-right: 20px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #eee; /* Couleur de la partie remplie pour les navigateurs WebKit (Chrome, Safari) */
+  border-top-right-radius: 20px; /* Top-right corner radius */
+  border-bottom-right-radius: 20px; /* Bottom-right corner radius */
+  transition: all .5s ease;
+  
+}
+
+
+progress::-webkit-progress-bar {
+  border-top-right-radius: 20px; /* Top-right corner radius */
+  border-bottom-right-radius: 20px; /* Bottom-right corner radius */
+}
+
+
+.progress-label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.progress-container img {
+  width: 50px;
+  margin-right: 15px;
+  transition: all .5s ease;
+}
+
+.progress-container:hover progress::-webkit-progress-value{
+  background-color: pink;
+  filter: drop-shadow(0px 0px 5px #ffb6c1);
+}
+
+.progress-container:hover img {
+  filter: brightness(0) saturate(100%) invert(73%) sepia(8%) saturate(2151%) hue-rotate(309deg) brightness(110%) contrast(108%) drop-shadow(0px 0px 5px #ffb6c1);
+}
+
+.progress-container:hover progress::after {
+  color: pink;
+}
+
+#skills .content {
+  flex-wrap: wrap;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  margin: 0;
+}
+
+progress::after {
+  position: relative;
+  content: attr(value) '%'; /* Display the value as a percentage inside the progress bar */
+  transform: translate(-50%, 0%);
+  color: #eee; /* Text color */
+  font-weight: bold;
+  font-family: roboto;
+  transition: all .5s ease;
+}

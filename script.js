@@ -1,11 +1,12 @@
 let data;
-let maVariable = "Valeur initiale";
+let data_skills;
 let i = 0;
 let keys;
+let keys_skills;
 let derniersProjetsKeys;
 
 document.addEventListener('DOMContentLoaded', function () {
-    let musique = new Audio('https://cdn.discordapp.com/attachments/1164684835911118981/1179243063768518797/Coffee_Talk_OST_1.mp3?ex=657912af&is=65669daf&hm=bb5b5bcda9ee4f9767eee98743256c7abbef299fbd26c68a442aa997a64e504c&');
+    let musique = new Audio('Music/Fortressoflies.mp3');
 
     fetch('projets.json')
         .then((response) => response.json())
@@ -17,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
             console.log(keys, derniersProjetsKeys)
             console.log(data);
             let projectContainer = document.querySelector('#projects .content');
-
 
             derniersProjetsKeys.forEach(function (key) {
                 let projectElement = document.createElement('div');
@@ -32,13 +32,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Ajouter un gestionnaire d'événements clic
                 projectElement.addEventListener('click', function () {
                     console.log(key);
-                    window.location.href = "projet.html?id=" + key;
+                    window.open("projet.html?id=" + key, '_blank');
                 });
 
                 projectContainer.appendChild(projectElement);
             });
         });
-
     document.querySelector('.play_pause').addEventListener('click', play_pause);
     document.querySelector('.nav-item img').addEventListener('click', play_pause);
 
@@ -60,5 +59,37 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 });
+
+fetch('skills.json')
+.then((response) => response.json())
+.then((json) => {
+    let data_skills = json;
+    keys_skills = Object.keys(data_skills)
+    console.log(keys_skills, data_skills);
+
+    let skillsContainer = document.querySelector('#skills .content');
+
+    keys_skills.forEach(function (key) {
+        // Créer la div principale
+        let skillElement = document.createElement('div');
+        skillElement.classList.add('progress-container');
+    
+        // Ajouter une image à la div
+        let imageElement = document.createElement('img');
+        imageElement.src = data_skills[key].image;
+        skillElement.appendChild(imageElement);
+
+        // Créer la barre de progression
+        let progressBar = document.createElement('progress');
+        progressBar.value = data_skills[key].percentage;
+        progressBar.max = 100;
+        skillElement.appendChild(progressBar);
+    
+        // Ajouter la div à votre document (ajuster selon votre structure HTML)
+        skillsContainer.appendChild(skillElement);
+    });
+    
+});
+
 
 

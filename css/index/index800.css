@@ -71,3 +71,8 @@ h1 {
   .img-text {
     top: 200px !important;
   }
+
+
+  .progress-container img {
+    width: 35px;
+  }

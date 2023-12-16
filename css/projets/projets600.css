@@ -1,0 +1,55 @@
+.image_projet {
+    display: none;
+
+}
+
+.container {
+    left: 0;
+    width: 100%;
+    padding: 0;
+    top: 0;
+}
+
+.container_text {
+    margin-right: 50px;
+}
+
+
+.container_text h1 {
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.container_text h2 {
+    font-size: 1.25rem;
+    text-align: center;
+}
+.container_text {
+    margin: 0;
+    margin-top: 40vh;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container_text a:not(.technos a , .bouton-lien) {
+    display: none;
+}
+
+.phone-only {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.bouton-lien {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.technos img {
+    width: 35px;
+    height: 35px;
+}
