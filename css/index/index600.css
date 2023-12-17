@@ -95,9 +95,8 @@ nav {
   }
 
   .project-box {
-    min-width: 250px;
-    min-height: 250px;
-
+    min-width: 225px;
+    min-height: 225px;
     margin-top: 50px;
     border-radius: 40px;
   }
@@ -119,7 +118,7 @@ nav {
   }
 
   .img-text {
-    top: 265px !important;
+    top: 240px !important;
     width: 100% !important;
   }
 
@@ -219,5 +218,32 @@ nav {
   }
   .burger-content ul li {
     list-style: none;
+  }
+
+
+  .Project-title {
+    display: flex;
+    flex-direction: column;
+  }
+  .Project-title a {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 230px;
+    color: white;
+    font-family: roboto;
+    transition: all .25s ease;
+    border: solid 2px white;
+    border-radius: 5px;
+    margin-top: 20px;
+    justify-content: center;
+
+  }
+
+
+
+  .Project-title img {
+  display: none;
   }
 

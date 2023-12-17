@@ -265,3 +265,51 @@ progress::after {
   display: none;
 }
 
+.bouton-lien {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  border: solid 1px white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all .5s;
+  color: white;
+  font-family: roboto;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.Project-title {
+  display: flex;
+  flex: row;
+}
+
+.Project-title a {
+  position: relative;
+  top: 60%;
+  left: 10%;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: roboto;
+  transition: all .25s ease;
+}
+
+.Project-title a:hover {
+  filter: brightness(0) saturate(100%) invert(73%) sepia(8%) saturate(2151%) hue-rotate(309deg) brightness(110%) contrast(108%) ;
+}
+
+.Project-title img {
+  position: relative;
+  top: 15px;
+  left: 5%;
+  height: 30px;
+  width: 30px;
+}
+

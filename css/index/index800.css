@@ -77,3 +77,25 @@ h1 {
   .progress-container img {
     width: 35px;
   }
+
+  
+
+  .Project-title a {
+    position: relative;
+    top: 40%;
+    left: 10%;
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: roboto;
+    transition: all .25s ease;
+  }
+
+  .Project-title img {
+    position: relative;
+    top: 15px;
+    left: 5%;
+    height: 30px;
+    width: 30px;
+  }
