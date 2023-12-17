@@ -42,10 +42,15 @@ nav {
 
   
   .nav-item:hover a {
-    color: wheat;
+    color: pink;
   }
   
   .logo img {
     width: 64px !important;
     vertical-align: middle;
+    transition: all .25s ease;
+  }
+
+  .logo img:hover {
+    filter: brightness(0) saturate(100%) invert(73%) sepia(8%) saturate(2151%) hue-rotate(309deg) brightness(110%) contrast(108%) ;
   }

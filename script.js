@@ -4,6 +4,7 @@ let i = 0;
 let keys;
 let keys_skills;
 let derniersProjetsKeys;
+let burger = "off";
 
 document.addEventListener('DOMContentLoaded', function () {
     let musique = new Audio('Music/Fortressoflies.mp3');
@@ -89,6 +90,17 @@ fetch('skills.json')
         skillsContainer.appendChild(skillElement);
     });
     
+});
+
+document.querySelector('.burger .icon').addEventListener('click', function () {
+    if (burger == "off") {
+        burger = "on";
+        document.querySelector('.burger-content').style.display = "block";
+    }
+    else {
+        burger = "off";
+        document.querySelector('.burger-content').style.display = "none";
+    }
 });
 
 
