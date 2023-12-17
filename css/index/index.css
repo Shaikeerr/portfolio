@@ -141,7 +141,7 @@ p {
   position: relative;
   float: right;
   margin-right: 10%;
-  width: 250px;
+  width: 300px;
 }
 
 .project-box {
@@ -239,7 +239,7 @@ progress::-webkit-progress-bar {
 }
 
 .progress-container:hover progress::after {
-  color: pink;
+  color: rgb(255, 192, 203);
 }
 
 #skills .content {
@@ -313,3 +313,60 @@ progress::after {
   width: 30px;
 }
 
+.link_box {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 50%;
+  left: 50%;
+  top: 5%;
+  margin-bottom: 20px;
+  transform: translateX(-50%);
+  border: solid 1px white;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.link_box img {
+  float: none;
+  height: 100px;
+  width: 100px;
+  left: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+
+}
+
+.link_box div p {
+  position: relative;
+  padding: 0;
+  width: 80%;
+  margin: 0;
+}
+
+.link_box div h3 {
+  color: white;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.link_box div {
+  font-family: 'gmarket_sansbold';
+  position: relative;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.link_box div a {
+  color: white;
+}
+
+.link_box div a:hover {
+  color: pink;
+}

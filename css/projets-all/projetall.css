@@ -4,6 +4,10 @@ body {
     color: white;
 }
 
+.burger {
+    display: none;
+}
+
 .container {
     width: 90%;
     position: relative;
@@ -17,17 +21,17 @@ body {
 }
 
 .project-box img {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
 }
 
-.project-box:nth-child(odd) img {
+.project-box:nth-child(odd) img:not(.logo_lien) {
     float: left;
     margin-right: 40px;
 }
 
-.project-box:nth-child(even) img {
+.project-box:nth-child(even) img:not(.logo_lien) {
 
     float: right;
     margin-left: 20px;
@@ -35,9 +39,10 @@ body {
 
 .project-box {
     margin-bottom: 40px;
+    width: 100%;
 }
 
-h1 {
+h1 {    
     font-family: 'gmarket_sansbold';
 }
 
@@ -79,7 +84,7 @@ h1 {
 .logo_lien{
     width: 25px !important;
     height: 25px !important;
-    margin-right: 10px !important;
+    margin-left: 10px !important;
     transition: all .5s;
 
 }

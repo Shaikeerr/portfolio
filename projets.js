@@ -1,4 +1,7 @@
 let data;
+let keys
+let burger = "off";
+
 
 fetch('projets.json')
         .then((response) => response.json())
@@ -11,18 +14,29 @@ fetch('projets.json')
                 projectElement.classList.add('project-box');
                 projectElement.id = key;
                 console.log(key);
-                projectElement.innerHTML += "<img src=" + data[key].image +" alt='image projet'><br>"
                 projectElement.innerHTML += "<h1 class='titre_projet'>" + data[key].titre + "</h1><br>";
-                projectElement.innerHTML += "<p class='description_projet'>" + data[key].description + "</p><br>";
-                projectElement.innerHTML += "<a class=bouton-lien href=" + data[key].liens.site +"> <img class='logo_lien' src='logos/website.png'><p>Site Web</p> </a><br>"
+                                projectElement.innerHTML += "<img src=" + data[key].image +" alt='image projet'><br>";
+                if (window.matchMedia("(min-width: 600px)").matches) {
+                    projectElement.innerHTML += "<p class='description_projet'>" + data[key].description + "</p><br>"
+                  } else {
+                    projectElement.innerHTML += "<p class='description_projet'>" + data[key].short_description + "</p><br>"
+                  }
+                projectElement.innerHTML += "<a class=bouton-lien href='projet.html?id=" + projectElement.id + "' target='_blank'> <p>Voir Plus</p> <img class='logo_lien' src='images/arrow.png'></a><br>"
               
-                
-                // Ajouter un gestionnaire d'événements clic
-                projectElement.addEventListener('click', function () {
-                    console.log(key);
-                    window.open("projet.html?id=" + key, '_blank');
-                });
-
+            
                 projectContainer.appendChild(projectElement);
             });
-        })
+        });
+
+document.querySelector('.burger .icon').addEventListener('click', function () {
+    if (burger == "off") {
+        burger = "on";
+        document.querySelector('.burger-content').style.display = "block";
+        document.querySelector('.burger .icon img').src = "images/cross.png";
+    }
+    else {
+        burger = "off";
+        document.querySelector('.burger-content').style.display = "none";
+        document.querySelector('.burger .icon img').src = "logos/burger_icon.png";
+    }
+});

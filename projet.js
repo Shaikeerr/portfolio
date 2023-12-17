@@ -1,5 +1,7 @@
 let url = window.location.toString().split('=')[1]
 let data;
+let burger = "off";
+
 console.log(url)
 
 
@@ -34,4 +36,16 @@ console.log(url)
             
         });
 
+        document.querySelector('.burger .icon').addEventListener('click', function () {
+            if (burger == "off") {
+                burger = "on";
+                document.querySelector('.burger-content').style.display = "block";
+                document.querySelector('.burger .icon img').src = "images/cross.png";
+            }
+            else {
+                burger = "off";
+                document.querySelector('.burger-content').style.display = "none";
+                document.querySelector('.burger .icon img').src = "logos/burger_icon.png";
+            }
+        });
 

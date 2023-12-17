@@ -1,0 +1,38 @@
+nav {
+    display: none !important; 
+}
+
+.project-box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.project-box:nth-child(odd) img:not(.logo_lien) {
+    float: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.project-box:nth-child(even) img:not(.logo_lien) {
+    float: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+.titre_projet {
+    font-family: 'gmarket_sansbold';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bouton-lien {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

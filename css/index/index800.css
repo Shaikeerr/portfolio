@@ -99,3 +99,25 @@ h1 {
     height: 30px;
     width: 30px;
   }
+
+  .link_box img {
+    float: none;
+    height: 50px;
+    width: 50px;
+    left: 30%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+  
+  }
+
+  .link_box {
+    width: 80%;
+  }
+
+  .link_box div h3 {
+    color: white;
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 0;
+  }
