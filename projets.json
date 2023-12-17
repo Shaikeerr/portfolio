@@ -86,7 +86,7 @@
     "Projet4" : {
         "titre" : "Dataviz",
         "description": "Dans le cadre d'un projet universitaire de Data Visualisation nommé \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années. Pour cela, quoi de mieux que de montrer la progression des revenus redistribués aux joueurs à la suite de compétitions, car c'est le moyen le plus efficace d'évaluer la santé d'un jeu-vidéo en matière d'esport.",
-        "short_description" : "Dans le cadre dd'un projet universitaire de Data Visualisation nommé \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années.",
+        "short_description" : "Dans le cadre d'un projet universitaire de Data Visualisation nommé \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années.",
         "liens" : {
             "site" : "http://dataviz.shaikeerr.tech",
             "github" : "https://github.com/Shaikeerr/Dataviz"
@@ -121,7 +121,7 @@
         "description": "Save Earty est un projet réalisé pour la Nuit de l'Info à l'IUT de Meaux. La Nuit de l'Info comme son nom l'indique, consiste en une nuit complète dédiée au développement d'une application Web. Cette année, le thème était centré sur le Climat. Ainsi, avec mon groupe, nous avons décidé de réaliser un site de sensibilisation sur le climat, avec un jeu de type Quiz pour tester ses connaissances sur le sujet.",
         "short_description" : "Save Earty est un projet réalisé pour la Nuit de l'Info à l'IUT de Meaux. La Nuit de l'Info comme son nom l'indique, consiste en une nuit complète dédiée au développement d'une application Web.",
         "liens" : {
-            "site" : "saveearty.com",
+            "site" : "http://saveearty.com",
             "github" : "https://github.com/LeanaLIM/SaveEarty"
         },
         "image" : "images/saveearty.png",

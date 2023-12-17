@@ -23,7 +23,7 @@ console.log(url)
             }
             document.querySelector('body .container .texte').innerHTML += "<h1>" + data["titre"] + "</h1><br>"
             document.querySelector('body .container .texte').innerHTML += "<p>" + data["description"] + "</p><br>"
-            document.querySelector('body .container .texte').innerHTML += "<a href=" + data["lien"] + ">" + data["liens"]["site"] + "</a><br>"
+            document.querySelector('body .container .texte').innerHTML += "<a href='" + data["liens"]["site"] + "'>" + data["liens"]["site"] + "</a><br>"
             for (const i in data["technos"]) {
                     const techno = data["technos"][i];
                     const lien_techno = data["links"][i];
